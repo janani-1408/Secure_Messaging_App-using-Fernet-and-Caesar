@@ -1,7 +1,5 @@
 # Secure_Messaging_App-using-Fernet-and-Caesar
-
-A responsive and user-friendly web application that allows users to send encrypted messages using two different cryptographic techniques:
-
+  A responsive and user-friendly web application that allows users to send encrypted messages using two different cryptographic techniques:
 - **Fernet Encryption** (Symmetric AES-based)
 - **Caesar Cipher** (Shift-based classical cipher)
 
@@ -16,7 +14,17 @@ A responsive and user-friendly web application that allows users to send encrypt
 
 
 ## Project Structure
-<pre> secure_messaging_app/ │ ├── app.py # Main Flask application ├── secret.key # Auto-generated Fernet key file │ ├── templates/ │ └── index.html # Main web page │ ├── static/ │ ├── style.css # Styling and animations │ └── script.js # Frontend logic for Caesar cipher & interaction │ └── README.md # Project description and setup info </pre>
+```
+secure_messaging_app/
+├── app.py # Main Flask application
+├── secret.key # Auto-generated Fernet key file
+├── templates/
+│ └── index.html # Main web page
+├── static/
+│ ├── style.css # Styling and animations
+│ └── script.js # Frontend logic for Caesar cipher & interaction
+└── README.md # Project description and setup info
+```
 
 ## Installation & Running
 
