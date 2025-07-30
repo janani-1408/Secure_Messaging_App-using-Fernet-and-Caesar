@@ -15,19 +15,16 @@ A responsive and user-friendly web application that allows users to send encrypt
 - Cryptography (Fernet encryption)
 
 
-## 📁 Project Structure
+##Project Structure
 secure_messaging_app/
 │
 ├── app.py # Main Flask application
 ├── secret.key # Auto-generated Fernet key file
-│
 ├── templates/
 │ └── index.html # Main web page
-│
 ├── static/
 │ ├── style.css # Styling and animations
 │ └── script.js # Frontend logic for Caesar cipher & interaction
-│
 └── README.md 
 
 ## 📥 Installation & Running
