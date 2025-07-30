@@ -5,7 +5,7 @@ A responsive and user-friendly web application that allows users to send encrypt
 - **Fernet Encryption** (Symmetric AES-based)
 - **Caesar Cipher** (Shift-based classical cipher)
 
-## ⚙️ Technologies Used
+## Technologies Used
 ### 🔹 Frontend
 - HTML5 + CSS3 (with animations)
 - JavaScript (ES6)
@@ -15,25 +15,25 @@ A responsive and user-friendly web application that allows users to send encrypt
 - Cryptography (Fernet encryption)
 
 
-##Project Structure
+## Project Structure
 secure_messaging_app/
-│
-├── app.py # Main Flask application
-├── secret.key # Auto-generated Fernet key file
-├── templates/
-│ └── index.html # Main web page
-├── static/
-│ ├── style.css # Styling and animations
-│ └── script.js # Frontend logic for Caesar cipher & interaction
-└── README.md 
+-app.py # Main Flask application
+-secret.key # Auto-generated Fernet key file
+-templates/
+--index.html # Main web page
+-static/
+--style.css # Styling and animations
+--script.js # Frontend logic for Caesar cipher & interaction
+-
+README.md 
 
-## 📥 Installation & Running
+## Installation & Running
 
-### 🔧 Prerequisites
+### Prerequisites
 - Python 3.7+
 - pip package manager
 
-### 💻 Steps to Run
+### Steps to Run
 Install dependencies:
 pip install flask cryptography
 
